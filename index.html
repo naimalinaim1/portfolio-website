@@ -7,9 +7,73 @@
     <title>Developer</title>
     <!-- bootstrap css cdn -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <!-- font awesome cdn -->
+     <script src="https://kit.fontawesome.com/638dfe9f71.js" crossorigin="anonymous"></script>
+     <!-- custom css -->
+     <link rel="stylesheet" href="styles/font.css">
 </head>
 <body>
-    
+    <!-- header -->
+    <header class="shadow-sm">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-md py-3 px-3">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Developer</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-0 mb-lg-0">
+                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
+                    <a class="nav-link active"  href="#">Home</a>
+                  </li>
+                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
+                    <a class="nav-link" href="#">Skills</a>
+                  </li>
+                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
+                    <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- hero section -->
+        <section class="container-fluid px-5 mt-5 pt-5">
+            <div class="pt-md-5 row row-cols-1 row-cols-md-2 g-4 flex-column-reverse flex-md-row align-items-center">
+                <!-- developer text -->
+                <div class="col">
+                    <h4 class="fs-4 mb-2 mt-4">Hello, It's Me</h4>
+                    <h1 class="display-5 fw-semibold">Developer Name</h1>
+                    <h4 class="fs-4 mt-2">And I'm a <span>Frontend Developer</span></h4>
+                    <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam obcaecati, alias doloribus corrupti placeat soluta.</p>
+                    <!-- important link -->
+                    <div class="my-4">
+                        <a href="" class="border border-primary p-2 rounded-circle text-center me-3" style="display: inline-block; width: 35px; height: 35px;"><i class="fa-brands fa-github"></i></a>
+                        <a href="" class="border border-primary p-2 rounded-circle text-center me-3" style="display: inline-block; width: 35px; height: 35px;"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="" class="border border-primary p-2 rounded-circle text-center me-3" style="display: inline-block; width: 35px; height: 35px;"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="border border-primary p-2 rounded-circle text-center me-3" style="display: inline-block; width: 35px; height: 35px;"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <!-- download cv -->
+                    <div class="mt-5">
+                        <a href="" class="btn  bg-dark text-white fs-5 rounded-pill py-2 px-4">Download cv</a>
+                    </div>
+                </div>
+                <!-- developer image -->
+                <div class="col d-flex justify-content-center justify-content-md-end">
+                    <img src="images/developer-image.jpg" class="rounded-circle img-fluid" alt="" style="filter: grayscale(100)">
+                </div>
+              </div>
+        </section>
+    </main>
 
     <!-- bootstrap js cdn -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
