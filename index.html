@@ -14,7 +14,7 @@
 </head>
 <body>
     <!-- header -->
-    <header class="shadow-sm" style="min-height: 8vh;">
+    <header class="shadow-sm fixed-top bg-white" style="min-height: 8vh;">
         <!-- navbar -->
         <nav class="navbar navbar-expand-md py-3 px-3">
             <div class="container-fluid">
@@ -28,16 +28,13 @@
                     <a class="nav-link active"  href="#">Home</a>
                   </li>
                   <li class="nav-item mb-2 mb-md-0 ms-md-5">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about-skills">About</a>
                   </li>
                   <li class="nav-item mb-2 mb-md-0 ms-md-5">
-                    <a class="nav-link" href="#">Skills</a>
+                    <a class="nav-link" href="#about-skills">Skills</a>
                   </li>
                   <li class="nav-item mb-2 mb-md-0 ms-md-5">
-                    <a class="nav-link" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item mb-2 mb-md-0 ms-md-5">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -74,7 +71,7 @@
             </div>
         </section>
         <!-- about and skill section -->
-        <section class="container-fluid">
+        <section id="about-skills"  class="container-fluid d-flex align-items-center" style="min-height: 100vh;">
           <div class="row row-cols-1 row-cols-md-2 g-4 mt-5 pt-5 mt-md-0 pt-md-0">
             <div class="col">
               <h2 class="text-center border-bottom pb-3 mb-5" style="text-transform: uppercase;">About Me</h2>
@@ -96,6 +93,27 @@
                   <li class="mb-3">Node JS</li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </section>
+        <!-- contact section -->
+        <section id="contact" class="container-fluid d-flex align-items-center" style="min-height: 100vh;">
+          <div class="w-75 mx-auto">
+            <h2 class="text-center mb-4">Contact With Email</h2>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              <label for="email">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="text" class="form-control" id="subject" placeholder="subject">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea class="form-control" placeholder="message" id="message" style="height: 250px"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <div>
+              <input class="form-control bg-dark text-white pt-3 pb-2 " type="button" value="Send Email">
             </div>
           </div>
         </section>
